@@ -16,7 +16,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Jenkins가 지정된 Git 저장소와 브랜치에서 코드를 clone
-                git branch: 'main', url: 'https://github.com/your-org/ansible-deploy.git'
+                git branch: 'main', url: 'https://github.com/OhseungKeun/jenkins.git'
             }
         }
 

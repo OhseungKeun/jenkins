@@ -1,4 +1,4 @@
 [webservers]
-web1.example.com
-web2.example.com
-web3.example.com
+web1.example.com ansible_user=centos
+web2.example.com ansible_user=centos
+web3.example.com ansible_user=centos
